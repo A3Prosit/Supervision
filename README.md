@@ -222,3 +222,34 @@ Outils :
 - loadkeys fr ⇒ Mettre en FR
 
 ### Challenge
+
+Etape 1 : 
+'/' <==> 1.3.6.1.4.1.2021.9.1.2.1
+
+Etape 2 : 
+/usr/lib/centreon/plugins <==> $CENTREONPLUGINS$
+
+Etape 3 : 
+usr/lib/centreon/plugins/
+
+
+
+### Self-Check
+
+⇒ V3 SNMP : Identification des parties qui communiquent + assurance conversation privé
+Cette sécurité est basée sur 2 concepts :
+-   USM (User-based Security Model)
+-   VACM (View- based Access Control Model)
+
+⇒ Fork Nagios : Shinken / Icinga / Naeman
+⇒ Outil qui ne correspond pas à un outil de monitoring : OCS Inventory NG
+⇒ Mauvaise pratique à ne pas appliquer lors d'un projet de supervision : Attendre la fin d'un projet pour sensibiliser et former les utilisateur de la solution de supervision.
+⇒ Rien à voir avec la supervision GLPI
+⇒ SNMP : Simple Network Management Protocol 
+⇒ Elements directement impactant sur les performances d'un serveur de supervision : Poller + Scheduler
+==> snmpwal : 
+	- Parcourir une MIB
+	- Utilise la communauté et la v. du protocole SNMP pour fonctionner
+	- Parcourir une BDD normalis
+==> NSClient++ == Windows + Linux
+=> /etc/snmp/snmpd.conf
